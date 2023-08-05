@@ -1,0 +1,148 @@
+import Flight from "./components/Flight.jsx";
+import Car from "./components/Car.jsx";
+import Ship from "./components/Ship.jsx";
+import Train from "./components/Train.jsx";
+import Nig from "./images/Nigeria.jpg";
+import Brit from "./images/British-Airways-Logo.png";
+import Wizz from "./images/Wizz_Air_logo.svg.png";
+import Thum from "./images/THUMB-aa_aa__ahz_4cp_grd_pos-(1).png";
+
+export const navTab = [
+  {
+    id: 90,
+    name: "Flight",
+    font: "fas fa-plane",
+    component: <Flight />,
+  },
+  {
+    id: 92,
+    name: "Train",
+    font: "fas fa-subway",
+    component: <Train />,
+  },
+  {
+    id: 93,
+    name: "Ship",
+    font: "fas fa-ship",
+    component: <Ship />,
+  },
+  {
+    id: 94,
+    name: "Car",
+    font: "fas fa-car",
+    component: <Car />,
+  },
+];
+
+export const searchData = [
+  {
+    id: 1,
+    airline: Nig,
+    departureDate: "2023-08-05",
+    departureTime: "08:00 AM",
+    stops: 1,
+    hours: "4 hours 54 mins",
+    arriveDate: "2023-08-05",
+    arriveTime: "01:00 PM",
+    price: "300",
+  },
+  {
+    id: 2,
+    airline: Thum,
+    departureDate: "2023-08-05",
+    departureTime: "10:30 AM",
+    stops: 0,
+    hours: "2 hours 54 mins",
+    arriveDate: "2023-08-05",
+    arriveTime: "02:30 PM",
+    price: "250",
+  },
+  {
+    id: 3,
+    airline: Wizz,
+    departureDate: "2023-08-06",
+    departureTime: "03:15 PM",
+    stops: 2,
+    hours: "2 hours 54 mins",
+    arriveDate: "2023-08-06",
+    arriveTime: "10:15 PM",
+    price: "400",
+  },
+  {
+    id: 4,
+    airline: Brit,
+    departureDate: "2023-08-07",
+    departureTime: "06:45 AM",
+    stops: 1,
+    hours: "2 hours 54 mins",
+    arriveDate: "2023-08-07",
+    arriveTime: "12:45 PM",
+    price: "320",
+  },
+  {
+    id: 5,
+    airline: Brit,
+    departureDate: "2023-08-07",
+    departureTime: "02:00 PM",
+    stops: 0,
+    hours: "3 hours 54 mins",
+    arriveDate: "2023-08-07",
+    arriveTime: "05:00 PM",
+    price: "180",
+  },
+  {
+    id: 6,
+    airline: Nig,
+    departureDate: "2023-08-08",
+    departureTime: "09:30 AM",
+    stops: 3,
+    hours: "5 hours 54 mins",
+    arriveDate: "2023-08-08",
+    arriveTime: "07:30 PM",
+    price: "550",
+  },
+  {
+    id: 7,
+    airline: Wizz,
+    departureDate: "2023-08-09",
+    departureTime: "04:20 PM",
+    stops: 1,
+    hours: "2 hours 54 mins",
+    arriveDate: "2023-08-09",
+    arriveTime: "12:20 AM",
+    price: "420",
+  },
+  {
+    id: 8,
+    airline: Thum,
+    departureDate: "2023-08-10",
+    departureTime: "11:15 AM",
+    stops: 0,
+    hours: "1 hours 54 mins",
+    arriveDate: "2023-08-10",
+    arriveTime: "04:15 PM",
+    price: "280",
+  },
+  {
+    id: 9,
+    airline: Nig,
+    departureDate: "2023-08-10",
+    departureTime: "07:00 AM",
+    stops: 2,
+    hours: "4 hours 54 mins",
+    arriveDate: "2023-08-10",
+    arriveTime: "04:00 PM",
+    price: "380",
+  },
+  {
+    id: 10,
+    airline: Brit,
+    departureDate: "2023-08-11",
+    departureTime: "01:45 PM",
+    stops: 0,
+    hours: "2 hours 54 mins",
+    arriveDate: "2023-08-11",
+    arriveTime: "03:45 PM",
+    price: "150",
+  },
+];
