@@ -9,7 +9,7 @@ const Ship = () => {
   return (
     <div className="p-5">
       <h2 className="text-[35px]">
-        Best Train deals with <span style={style}>Thrillers Travels</span>
+        Best Ship deals with <span style={style}>Thrillers Travels</span>
       </h2>
 
       <form>

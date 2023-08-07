@@ -14,7 +14,7 @@ const FormsSection = () => {
   };
 
   return (
-    <div className="w-[35%]  bg-[#F3F6FD]">
+    <div className="w-[100%] lg:w-[35%]  bg-[#F3F6FD]">
       <h2 style={style} className=" p-8 text-[30px]">
         Thrillers Travels
       </h2>
